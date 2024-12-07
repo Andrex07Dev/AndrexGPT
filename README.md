@@ -22,35 +22,24 @@ Installation 🔧
 Follow these steps to set up and run Andrex GPT on your local machine:
 
 1. Clone the Repository
-bash
-Copia codice
-git clone https://github.com/yourusername/andrex-gpt.git
+git clone https://github.com/Andrex07Dev/AndrexGPT
 cd andrex-gpt
 2. Set Up Environment
 Install the required dependencies using pip:
 
-bash
-Copia codice
 pip install -r requirements.txt
 3. Set Up API Keys
-Create a .env file in the root directory of the project and add your Google Generative AI API Key and LangChain API Key:
+Edit a .env file in the root directory of the project and add your Google Generative AI API Key and LangChain API Key:
 
-makefile
-Copia codice
 GOOGLE_API_KEY=your_google_api_key
 LANGCHAIN_API_KEY=your_langchain_api_key
 4. Run the Application
 Run the Streamlit application:
 
-bash
-Copia codice
-streamlit run app.py
 File Structure 📂
-bash
-Copia codice
 andrex-gpt/
 │
-├── app.py                # Main Streamlit app file
+├── app.py                # Main app file
 ├── users.txt             # File storing user credentials
 ├── .env                  # Environment variables for API keys
 ├── requirements.txt      # Project dependencies
@@ -67,28 +56,20 @@ Logout
 
 You can close the app or relaunch it. Your session will reset.
 Dependencies 📦
-Streamlit: Frontend framework for building interactive web applications.
 Google Generative AI (Gemini Pro): Language model for content generation.
 LangChain: Framework to integrate and manage LLMs.
 python-dotenv: For managing environment variables.
 Install dependencies using:
 
-bash
-Copia codice
 pip install -r requirements.txt
 API Configuration ⚙️
 Google Generative AI
 
 Obtain your API key from Google AI Studio.
+https://aistudio.google.com/
+
 LangChain
-
-Get your API key from LangChain.
-Screenshots 📸
-
-Login page for user authentication.
-
-
-Content generation with Andrex GPT.
+https://www.langchain.com/
 
 Contributing 🤝
 Contributions are welcome!
@@ -98,8 +79,8 @@ License 📄
 This project is licensed under the MIT License.
 
 Contact 📧
-If you have questions or suggestions, feel free to contact me:
+If you have questions or suggestions, feel free to contact me.
 
-Email: your-email@example.com
-GitHub: @yourusername
+Email: Not yet
+GitHub: @Andrex07DEv
 Happy Coding! 😊🚀
